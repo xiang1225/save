@@ -1,0 +1,72 @@
+.hd {
+	background: url(../img/hd-bj.png) no-repeat;
+	/*height: 300px;*/
+	text-align: center;
+}
+
+.write {
+	vertical-align: bottom;
+	margin-left: 10px;
+	position: relative;
+	z-index: 2;
+}
+
+.hd-hd {
+	padding-top: 30px;
+}
+
+.hd span {
+	width: 80px;
+	border-radius: 6px;
+	margin-top: 20px;
+	margin-right: 20px;
+	height: 30px;
+	position: relative;
+	z-index: 2;
+	font-size: 20px;
+	margin-bottom: 30px;
+	line-height: 30px;
+	font-weight: bolder;
+	background: #5fd3c8;
+	display: inline-block;
+}
+
+.bd {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.bd ul li {
+	border-top: #dce2eb solid 1px;
+	height: 90px;
+	line-height: 90px;
+	padding: 0 3%;
+	position: relative;
+	z-index: 2;
+}
+
+.bd ul li img {
+	height: 40px;
+	width: 40px;
+	vertical-align: middle;
+}
+
+.bd ul li a {
+	margin-left: 20px;
+	font-size: 30px;
+	vertical-align: middle;
+}
+
+.next {
+	margin-top: 25px;
+}
+
+.mb {
+	border-bottom: #dce2eb solid 1px;
+}
+
+.foot{
+	position: relative;
+	z-index: 2;
+}
+

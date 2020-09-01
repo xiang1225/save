@@ -1,0 +1,65 @@
+.hd{
+	text-align: center;
+	height: 50px;
+	background: #FFFFFF;
+	line-height: 50px;
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.hd p{
+	font-size: 26px;
+	line-height: 50px;
+	font-weight: bolder;
+}
+
+.hd img{
+	margin-top: 10px;
+}
+
+.return{
+	position: absolute;
+	left: 10px;
+	top: 0;
+}
+
+body{
+	background:#eeeeee !important;
+}
+
+.main{
+	background: #FFFFFF;
+}
+
+.main div{
+	border-bottom: 1px solid #EEEEEE;
+}
+
+.main-hd{
+	text-align: center;
+}
+
+.main-hd p{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.main-hd img{
+	width: 150px;
+	height: 150px;
+}
+
+.main-inner{
+	height: 60px;
+	line-height: 60px;
+}
+
+.main-inner a{
+	font-size: 26px;
+	margin-left: 20px;
+}
+
+.main-inner span{
+	font-size: 26px;
+	margin-right: 20px;
+	float: right;
+}

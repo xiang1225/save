@@ -1,0 +1,51 @@
+body{
+	background: url(../img/bg.png) no-repeat !important;
+}
+
+.hd{
+	margin: 20px;
+}
+
+.hd-left{
+	width: 180px;
+	display: inline-block;
+}
+
+.hd-left img{
+	width: 180px;
+	height: 220px;
+}
+
+.hd-right h2{
+	width: 88px;
+	font-size: 60px;
+	text-align: center;
+	color: #050700;
+	line-height: 1.5;
+}
+
+.middle{
+	margin-top: 180px;
+	text-align: center;
+	height: 150px;
+	background: url(../img/redc.png) no-repeat;
+	background-size: 100%;
+}
+
+.middle-inner img{
+	width: 100px;
+	height: 100px;
+}
+
+.ft{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.people{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}

@@ -1,0 +1,120 @@
+// App Styles
+// ----------------------------------------------------------------------------
+// Put style rules here that you want to apply to the entire application. These 
+// styles are for the entire app and not just one component. Additionally, this 
+// file can hold Sass mixins, functions, and placeholder classes to be imported 
+// and used throughout the application.
+* {
+	padding: 0;
+	margin: 0;
+}
+
+div,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ol,
+ul,
+li,
+table,
+th,
+td,
+p,
+span,
+a {
+	border: 0;
+	color: #000000;
+	padding: 0;
+	margin: 0;
+}
+
+img,
+input {
+	border: none;
+	vertical-align: middle;
+}
+
+body {
+	background: #fff !important;
+	overflow: hidden;
+}
+
+body,
+p {
+	font: 14px/1 Microsoft YaHei;
+	color: #333;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+th,
+td,
+input {
+	font-size: 12px;
+}
+
+button {
+	border: none;
+	cursor: pointer;
+	font-size: 12px;
+	background-color: transparent;
+}
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+.foot{
+	bottom: 0;
+	left: 0;
+	position:fixed !important;
+	z-index: 998;
+	background: #FFFFFF !important;
+}
+
+.foot {
+	width: 100%;
+	/*position: relative;*/
+	padding: 10px 5%;
+	/*bottom: 0;*/
+	border-top: 1px solid #090700;
+}
+
+.foot ul li {
+	display: inline-block;
+}
+
+.foot ul {
+	text-align-last: justify;
+}
+
+.foot img {
+	height: 40px;
+	width: 40px;
+}
+
+#yc{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}

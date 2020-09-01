@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport" />
+		<script type="text/javascript" src="../../js/mui.js"></script>
+		<link rel="stylesheet" href="../../css/mui.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/register.js"></script>
+	</head>
+
+	<body>
+		<div class="hd">
+			<img src="../../img/logo.png" width="100px" height="110px" />
+		</div>
+		<div class="main">
+			<form>
+				<div class="main-input">
+					<span>用户名</span>
+					<input name="username" class="Linput" type="text" />
+				</div>
+				<div class="main-input">
+					<span>密码</span>
+					<input name="password" class="Linput" type="password" />
+				</div>
+				<div class="main-input">
+					<span>身份</span>
+					<div>
+						<input type="radio" name="admin" />
+						<label>志愿者</label>
+						<input type="radio" name="admin" class="Lradio" />
+						<lable>用户</label>
+					</div>
+				</div>
+				<div class="main-input">
+					<span>身份证号码</span>
+					<input name="password" class="Linput" type="password" />
+				</div>
+				<div class="main-input">
+					<span>手机号码</span>
+					<input name="password" class="Linput" type="password" />
+				</div>
+				<div class="main-input">
+					<span>地址</span>
+					<div>
+						<select id="cmbProvince" name="cmbProvince"></select>
+						<select id="cmbCity" name="cmbCity"></select>
+						<select id="cmbArea" name="cmbArea"></select>
+					</div>
+				</div>
+				<div class="main-button">
+					<button type="button" class="mui-btn mui-btn-primary" id="reg">注 册</button>
+				</div>
+			</form>
+		</div>
+		<div class="foot">
+			<img src="../../img/people.png">
+		</div>
+	</body>
+
+	<script type="text/javascript">
+		addressInit('cmbProvince', 'cmbCity', 'cmbArea');
+	</script>
+
+</html>

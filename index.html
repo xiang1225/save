@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+		<div class="hd">
+			<div class="hd-inner">
+				<ul>
+					<li>
+						<p>首 页</p>
+					</li>
+					<li class="serch-li">
+						<div class="serch">
+							<span class="mui-icon mui-icon-search"></span>
+							<input type="text" />
+						</div>
+					</li>
+					<li class="position">
+						<a><img src="img/location.png" width="15px" height="19px"></a>
+						<a id="position" href="pages/map/map.html"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="nav">
+			<div class="nav-hd">
+				<div id="slider" class="mui-slider">
+					<div class="mui-slider-group mui-slider-loop">
+						<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#">
+								<img src="img/1.jpg">
+							</a>
+						</div>
+						<!-- 第一张 -->
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="img/2.jpg">
+							</a>
+						</div>
+						<!-- 第二张 -->
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="img/3.jpg">
+							</a>
+						</div>
+						<!-- 第三张 -->
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="img/4.jpg">
+							</a>
+						</div>
+						<!--第四张-->
+						<div class="mui-slider-item">
+							<a href="#">
+								<img src="img/5.jpg">
+							</a>
+						</div>
+						<!-- 第五张 -->
+						<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+						<div class="mui-slider-item mui-slider-item-duplicate">
+							<a href="#">
+								<img src="img/1.jpg">
+							</a>
+						</div>
+					</div>
+					<div class="mui-slider-indicator">
+						<div class="mui-indicator mui-active"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+						<div class="mui-indicator"></div>
+					</div>
+				</div>
+			</div>
+			<div class="nav-ft">
+				<ul>
+					<li>
+						<img src="img/training.png">
+						<p>培训</p>
+					</li>
+					<li>
+						<img src="img/video.png">
+						<p>视频</p>
+					</li>
+					<li>
+						<img src="img/volunteer.png">
+						<p>志愿者</p>
+					</li>
+					<li>
+						<img src="img/teaching-material.png">
+						<p>教材资料</p>
+					</li>
+					<li>
+						<img src="img/exam.png">
+						<p>考试</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="main-foot">
+			<div>
+				<div class="hot-news">
+					<ul>
+						<li>
+							<div class="hot-news-hd">
+								<span></span>
+								<p>热门新闻</p>
+							</div>
+						</li>
+						<li>
+							<div class="news" id="iiis">
+								<div class="img">
+									<img src="img/n1.jpg" />
+								</div>
+								<div class="content">
+									<p>百度牵手东软升级云化IIIS（医院信息系统）</p>
+									<p>BAT们加速AI医疗布局</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="news">
+								<div class="img">
+									<img src="img/n2.jpg" />
+								</div>
+								<div class="content">
+									<p>增强现实：一场正在到来的医疗革命</p>
+									<p></p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="news">
+								<div class="img">
+									<img src="img/n1.jpg" />
+								</div>
+								<div class="content">
+									<p>重庆市急救中心推出全国首个手语教程</p>
+									<p>聋人可通过视频120在线学习报警和急救</p>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="my-attention">
+				<ul>
+					<li>
+						<div class="hot-news-hd">
+							<span></span>
+							<p>我的关注</p>
+						</div>
+					</li>
+					<li>
+						<div>
+							<img src="img/C-medical-network.jpg" width="180px" height="70px" />
+						</div>
+						<div>
+							<img src="img/zhongguojijiu.jpg" width="85px" height="64px" />
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="foot" id="foot" style="display: none;">
+			<div>
+				<ul>
+					<li>
+						<a href="pages/map/map.html"><img src="img/location2.png"></a>
+					</li>
+					<li>
+						<a><img src="img/medical-manual.png"></a>
+					</li>
+					<li>
+						<a><img src="img/t3.png"></a>
+					</li>
+					<li>
+						<a><img src="img/t4.png"></a>
+					</li>
+					<li>
+						<a href="pages/my/index/index.html"><img src="img/my.png"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="yc"></div>
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</html>

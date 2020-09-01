@@ -1,0 +1,82 @@
+html,body{
+	background: #FFFFFF;
+}
+
+.hd{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.hd img{
+	margin: 0 auto;
+	display: block;
+}
+
+.main form{
+	text-align: center;
+}
+
+.main-input .Linput{
+	height: 30px;
+	width: 200px;
+}
+
+.main-input span{
+	width: 60px;
+	margin-right: 10px;
+	text-align: right;
+	display: inline-block;
+}
+
+.main-input div{
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+}
+
+.main-input div input{
+	transform: scale(1.5,1.5);
+}
+
+.Lradio{
+	margin-left: 10px;
+}
+
+.main-button{
+	margin-top: 15px;
+}
+
+.main-button button{
+	margin: 0 10px;
+}
+
+.main-foot{
+	margin-top: 10px;
+	text-align: right;
+}
+
+.main-foot a{
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.foot{
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	bottom: 10px;
+	position: fixed;
+}
+
+.main-input .cinput{
+	transform: scale(1,1) !important;
+	width: 90px;
+	height: 30px;
+}
+
+.main-input button{
+	height: 30px;
+	padding-top: 0;
+	padding-bottom: 0;
+	line-height: 30px;
+}

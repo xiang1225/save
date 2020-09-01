@@ -1,0 +1,106 @@
+.hd {
+	background: url(../img/hd-bj.png) no-repeat;
+	height: 230px;
+}
+
+.hd div {
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+	/*text-align: center;*/
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 60px;
+	vertical-align: middle;
+}
+
+.tx {
+	margin-top: 20px !important;
+	height: auto !important;
+}
+
+.hd p {
+	color: #090700;
+	font-size: 22px;
+}
+
+.fb{
+	display: block !important;
+}
+
+.fb p {
+	font-weight: bolder;
+	text-align: left;
+}
+
+.fb div {
+	display: block;
+	margin: 0;
+}
+
+.fb div img {
+	width: 40px;
+	height: 40px;
+}
+
+.tx p {
+	text-align: center !important;
+}
+
+.hd p {
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.main {
+	margin: 20px;
+}
+
+.main-hd{
+	margin-bottom: 20px;
+}
+
+.main-hd a {
+	font-size: 24px;
+	font-weight: bolder;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.main-ft div{
+	position: relative;
+	z-index: 2;
+	margin: 0 10px;
+}
+
+.main-ft img{
+	margin-right: 10px;
+}
+
+.main-ft div a{
+	font-size: 20px;
+	line-height: 60px;
+}
+
+.gx{
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+}
+
+.gx a{
+	margin-left: 10px;
+}
+
+.main-ft ul li{
+	margin-bottom: 10px;
+}
+
+.main-ft div span{
+	display: inline-block;
+	text-align: center;
+	font-size: 24px;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}

@@ -1,0 +1,90 @@
+html,body{
+	background: #FFFFFF;
+}
+
+::-webkit-scrollbar {/*滚动条整体样式*/
+        width: 0px;     /*高宽分别对应横竖滚动条的尺寸*/
+        height: 0px;
+    }
+
+.hd{
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.hd img{
+	margin: 0 auto;
+	display: block;
+}
+
+.main{
+	z-index: 2;
+	position: relative;
+}
+
+.main form{
+	text-align: center;
+}
+
+.main-input .Linput{
+	height: 30px;
+	width: 200px;
+}
+
+.main-input span{
+	width: 100px;
+	margin-right: 10px;
+	text-align: right;
+	display: inline-block;
+}
+
+.main-input div{
+	display: inline-block;
+	width: 200px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.main-input div input{
+	transform: scale(1.5,1.5);
+}
+
+.main-input select{
+	border: rgba(0,0,0,0.2) solid 1px !important;
+	width: 30%;
+	height: 30px;
+	padding: 0;
+	padding-left: .5em;
+	text-align: center;
+}
+
+.Lradio{
+	margin-left: 10px;
+}
+
+.main-button{
+	margin-top: 15px;
+}
+
+.main-button button{
+	margin: 0 10px;
+}
+
+.main-foot{
+	margin-top: 10px;
+	text-align: right;
+}
+
+.main-foot a{
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.foot{
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 20px;
+	bottom: 10px;
+	position: fixed;
+	z-index: 1;
+}

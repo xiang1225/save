@@ -1,0 +1,253 @@
+{
+  "pages/map/map.html": {
+    "href": "pages/map/map.html",
+    "resources": [
+      "pages/map/js/map.js",
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/map/css/map.css",
+      "js/mui.min.js",
+      "pages/map/img/map.jpg",
+      "img/location2.png",
+      "img/medical-manual.png",
+      "img/t3.png",
+      "img/t4.png",
+      "img/my.png"
+    ],
+    "refer": [
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "pages/my/data/data.html": {
+    "href": "pages/my/data/data.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/my/data/css/data.css",
+      "js/mui.min.js",
+      "pages/my/data/img/return.png",
+      "pages/my/data/img/yins.png",
+      "pages/my/data/img/tx.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/login/reg.html": {
+    "href": "pages/login/reg.html",
+    "resources": [
+      "pages/login/css/basic.css",
+      "pages/login/js/jquery-1.7.2.min.js"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/login/index.html": {
+    "href": "pages/login/index.html",
+    "resources": [
+      "pages/login/css/basic.css",
+      "pages/login/js/jquery-1.7.2.min.js"
+    ],
+    "refer": [
+      "pages/login/reg.html"
+    ],
+    "priority": 0
+  },
+  "pages/my/ranking/rank.html": {
+    "href": "pages/my/ranking/rank.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/my/ranking/css/rank.css",
+      "js/mui.min.js",
+      "pages/my/ranking/img/tx.png",
+      "pages/my/ranking/img/ranking.png",
+      "pages/my/ranking/img/medal.png",
+      "pages/my/ranking/img/first.png",
+      "pages/my/ranking/img/user.png",
+      "pages/my/ranking/img/second.png",
+      "pages/my/ranking/img/third.png",
+      "img/location2.png",
+      "img/medical-manual.png",
+      "img/t3.png",
+      "img/t4.png",
+      "img/my.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/my/message/message.html": {
+    "href": "pages/my/message/message.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/my/message/css/message.css",
+      "js/mui.min.js",
+      "pages/my/message/img/tx.png",
+      "pages/my/message/img/msg.png",
+      "pages/my/message/img/medal.png",
+      "pages/my/message/img/user.png",
+      "pages/my/message/img/message.png",
+      "img/location2.png",
+      "img/medical-manual.png",
+      "img/t3.png",
+      "img/t4.png",
+      "img/my.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/my/serve/serve.html": {
+    "href": "pages/my/serve/serve.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/my/serve/css/serve.css",
+      "js/mui.min.js",
+      "pages/my/serve/img/tx.png",
+      "pages/my/serve/img/serve.png",
+      "pages/my/serve/img/medal.png",
+      "img/location2.png",
+      "img/medical-manual.png",
+      "img/t3.png",
+      "img/t4.png",
+      "img/my.png",
+      "pages/my/serve/img/px1.jpeg",
+      "pages/my/serve/img/px2.jpg",
+      "pages/my/serve/img/px3.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/my/version/version.html": {
+    "href": "pages/my/version/version.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/my/version/css/version.css",
+      "js/mui.min.js",
+      "pages/my/version/img/return.png",
+      "pages/my/version/img/logo.png"
+    ],
+    "refer": [],
+    "priority": 0
+  },
+  "pages/my/setup/setup.html": {
+    "href": "pages/my/setup/setup.html",
+    "resources": [
+      "pages/my/setup/js/setup.js",
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/my/setup/css/setup.css",
+      "js/mui.min.js",
+      "pages/my/setup/img/tx.png",
+      "pages/my/setup/img/set-up.png",
+      "pages/my/setup/img/medal.png",
+      "img/location2.png",
+      "img/medical-manual.png",
+      "img/t3.png",
+      "img/t4.png",
+      "img/my.png"
+    ],
+    "refer": [
+      "pages/my/version/version.html"
+    ],
+    "priority": 0
+  },
+  "pages/my/knowledge/knowledge.html": {
+    "href": "pages/my/knowledge/knowledge.html",
+    "resources": [
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/my/knowledge/css/knowledge.css",
+      "js/mui.min.js",
+      "pages/my/knowledge/img/tx.png",
+      "pages/my/knowledge/img/knowledge.png",
+      "pages/my/knowledge/img/medal.png",
+      "pages/my/knowledge/img/knowledge1.png",
+      "img/location2.png",
+      "img/medical-manual.png",
+      "img/t3.png",
+      "img/t4.png",
+      "img/my.png"
+    ],
+    "refer": [
+      "pages/map/map.html",
+      "index.html",
+      "pages/my/index/index.html"
+    ],
+    "priority": 0
+  },
+  "pages/my/index/index.html": {
+    "href": "pages/my/index/index.html",
+    "resources": [
+      "pages/my/index/js/index.js",
+      "css/mui.min.css",
+      "css/common.css",
+      "pages/my/index/css/index.css",
+      "js/mui.min.js",
+      "pages/my/index/img/tx.png",
+      "pages/my/index/img/write.png",
+      "pages/my/index/img/knowledge.png",
+      "pages/my/index/img/next.png",
+      "pages/my/index/img/ranking.png",
+      "pages/my/index/img/serve.png",
+      "pages/my/index/img/msg.png",
+      "pages/my/index/img/set-up.png",
+      "img/logo.png",
+      "img/location2.png",
+      "img/medical-manual.png",
+      "img/t3.png",
+      "img/t4.png",
+      "img/my.png"
+    ],
+    "refer": [
+      "pages/my/data/data.html",
+      "pages/login/index.html",
+      "pages/my/ranking/rank.html",
+      "pages/my/message/message.html",
+      "pages/my/serve/serve.html",
+      "pages/my/setup/setup.html",
+      "pages/my/knowledge/knowledge.html",
+      "pages/login/reg.html",
+      "pages/map/map.html",
+      "index.html"
+    ],
+    "priority": 0
+  },
+  "index.html": {
+    "href": "index.html",
+    "resources": [
+      "js/index.js",
+      "js/mui.min.js",
+      "css/common.css",
+      "css/index.css",
+      "css/mui.min.css",
+      "img/training.png",
+      "img/video.png",
+      "img/volunteer.png",
+      "img/teaching-material.png",
+      "img/exam.png",
+      "img/location.png",
+      "img/C-medical-network.jpg",
+      "img/zhongguojijiu.jpg",
+      "img/location2.png",
+      "img/medical-manual.png",
+      "img/t3.png",
+      "img/t4.png",
+      "img/my.png",
+      "img/1.jpg",
+      "img/2.jpg",
+      "img/3.jpg",
+      "img/4.jpg",
+      "img/5.jpg",
+      "img/n1.jpg",
+      "img/n2.jpg"
+    ],
+    "refer": [
+      "pages/map/map.html",
+      "pages/my/index/index.html"
+    ],
+    "priority": 0
+  }
+}

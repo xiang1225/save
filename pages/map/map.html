@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>mui百度地图定位-www.bcty365.com</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="../../css/mui.css" rel="stylesheet" />
+		<link rel="stylesheet" href="../../css/common.css" />
+		<link rel="stylesheet" href="css/map.css" />
+	</head>
+
+	<body>
+		<div class="outer">
+			<div id="container">
+			</div>
+			<div class="foot" id="foot">
+				<div>
+					<ul>
+						<li>
+							<a><img src="../../img/location2.png"></a>
+						</li>
+						<li>
+							<a><img src="../../img/medical-manual.png"></a>
+						</li>
+						<li>
+							<a href="../../index.html"><img src="../../img/t3.png"></a>
+						</li>
+						<li>
+							<a><img src="../../img/t4.png"></a>
+						</li>
+						<li>
+							<a><img src="../../img/my.png"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<script src="../../js/mui.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=Gu3gGqzfcU4LGEPEtuOPYgq3P6LIkzrf"></script>
+		<script type="text/javascript" src="http://developer.baidu.com/map/jsdemo/demo/convertor.js"></script>
+		<script type="text/javascript">
+			mui.init();
+
+			mui.plusReady(function() {
+
+				var longitude, latitude;
+
+				plus.geolocation.getCurrentPosition(translatePoint, function(e) {
+					mui.toast("异常:" + e.message);
+				});
+
+				function translatePoint(position) {
+					var currentLon = position.coords.longitude;
+					var currentLat = position.coords.latitude;
+					alert(currentLat);
+					var gpsPoint = new BMap.Point(currentLon, currentLat);
+					BMap.Convertor.translate(gpsPoint, 2, initMap); //坐标转换 
+				}
+
+				function initMap(point) {
+					map = new BMap.Map("container"); //创建地图 
+					map.addControl(new BMap.NavigationControl());
+					map.addControl(new BMap.ScaleControl());
+					map.addControl(new BMap.OverviewMapControl());
+					map.centerAndZoom(point, 15);
+					map.addOverlay(new BMap.Marker(point));
+				}
+
+			});
+		</script>
+	</body>
+
+</html>
